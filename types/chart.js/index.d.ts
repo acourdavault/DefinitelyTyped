@@ -274,6 +274,7 @@ declare namespace Chart {
     }
 
     interface ChartOptions {
+        adapters?: any,
         responsive?: boolean;
         responsiveAnimationDuration?: number;
         aspectRatio?: number;
